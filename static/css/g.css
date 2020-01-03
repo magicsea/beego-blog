@@ -37,6 +37,8 @@ a:hover {text-decoration: underline;}
 #contact-me .social a.github:hover{border:1px solid #909ab6;background-color:#909ab6}
 #contact-me .social a.linkedin{background:url('/static/images/social/linkedin.png') center no-repeat #005a87;border:1px solid #005A87;}
 #contact-me .social a.linkedin:hover{border:1px solid #003854;background-color:#003854}
+#contact-me .social a.admin {background: url('/static/images/social/github.png') center no-repeat #afb6ca;border: 1px solid #afb6ca;}
+#contact-me .social a.admin:hover{border:1px solid #909ab6;background-color:#909ab6}
 
 #contact-me .social a {
 -webkit-border-radius: 50%;
