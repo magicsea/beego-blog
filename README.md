@@ -15,8 +15,8 @@ bee run
 
 ```
 url: localhost/me
-username: magicsea
-password: 111111
+username: xxxx
+password: xxxx
 ```
 
 ## 改动
