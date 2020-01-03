@@ -1,7 +1,7 @@
 package g
 
 import (
-	"github.com/qiniu/api.v6/conf"
+	//"github.com/qiniu/api.v7/conf"
 )
 
 var (
@@ -30,6 +30,7 @@ func initCfg() {
 	QiniuSecretKey = Cfg.String("qiniu_secret_key")
 	QiniuScope = Cfg.String("qiniu_scope")
 	UseQiniu = QiniuAccessKey != "" && QiniuSecretKey != "" && QiniuScope != ""
-	conf.ACCESS_KEY = QiniuAccessKey
-	conf.SECRET_KEY = QiniuSecretKey
+	//TODO:remove
+	//conf.ACCESS_KEY = QiniuAccessKey
+	//conf.SECRET_KEY = QiniuSecretKey
 }

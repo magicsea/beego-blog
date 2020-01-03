@@ -1,15 +1,12 @@
 beego-blog
 ==========
-
-ulricqin's blog use beego framework
+blog use beego framework
 
 ## install
 
 ```
-mkdir -p $GOPATH/src/github.com/ulricqin
-cd $GOPATH/src/github.com/ulricqin
-git clone https://github.com/UlricQin/beego-blog.git
-go get github.com/ulricqin/beego-blog/...
+go get github.com/ulricqin/beego-blog/goutils
+go get github.com/magicsea/beego-blog
 cd beego-blog && modify conf/app.conf
 bee run
 ```
@@ -17,7 +14,11 @@ bee run
 ## admin 
 
 ```
-url: /me
-username: UlricQin
-password: a
+url: localhost/me
+username: magicsea
+password: 111111
 ```
+
+## 改动
+- 因为编译不过，移除qiniu相关依赖
+- 稍微修改了展示页
