@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/ulricqin/beego-blog/models"
-	"github.com/ulricqin/beego-blog/models/blog"
-	"github.com/ulricqin/beego-blog/models/catalog"
+	"github.com/magicsea/beego-blog/models"
+	"github.com/magicsea/beego-blog/models/blog"
+	"github.com/magicsea/beego-blog/models/catalog"
 )
 
 type ArticleController struct {

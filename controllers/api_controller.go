@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ulricqin/beego-blog/g"
-	"github.com/ulricqin/beego-blog/models/catalog"
+	"github.com/magicsea/beego-blog/g"
+	"github.com/magicsea/beego-blog/models/catalog"
 	"github.com/ulricqin/goutils/filetool"
 	"github.com/ulricqin/goutils/strtool"
 )
