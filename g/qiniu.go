@@ -1,10 +1,5 @@
 package g
 
-import (
-	//"github.com/qiniu/api.v7/io"
-	//"github.com/qiniu/api.v7/rs"
-)
-
 func UploadFile(localFile string, destName string) (addr string, err error) {
 	//TODO:remove
 	//policy := new(rs.PutPolicy)

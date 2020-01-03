@@ -1,9 +1,5 @@
 package g
 
-import (
-	//"github.com/qiniu/api.v7/conf"
-)
-
 var (
 	RootEmail      string
 	RootName       string
